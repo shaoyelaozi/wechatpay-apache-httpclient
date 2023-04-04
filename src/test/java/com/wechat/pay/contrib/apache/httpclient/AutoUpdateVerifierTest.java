@@ -91,7 +91,7 @@ public class AutoUpdateVerifierTest {
     public void uploadImageTest() throws Exception {
         String filePath = "/your/home/hellokitty.png";
 
-        URI uri = new URI("https://api.mch.weixin.qq.com/v3/merchant/media/upload");
+        URI uri = new URI("https://api.mch.weixin.qq.com/v3/marketing/favor/media/image-upload");
 
         File file = new File(filePath);
         try (FileInputStream fileIs = new FileInputStream(file)) {
